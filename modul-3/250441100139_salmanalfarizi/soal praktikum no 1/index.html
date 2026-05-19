@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-600">BD.studio</h1>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#tentang" class="hover:text-blue-500 transition">Tentang</a>
+                <a href="#foto" class="hover:text-blue-500 transition">Galeri</a>
+                <a href="#Pemesanan" class="hover:text-blue-500 transition">Pemesanan</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="tentang" class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/2">
+            <img src="image/fotoku.jpeg" alt="Foto Profil" class="rounded-2xl  w-full object-cover aspect-square">
+        </div>
+        <div class="md:w-1/2 space-y-6">
+            <h2 class="text-4xl font-extrabold text-black-900">Halo, Saya <span class="text-blue-600 ">SALMAN AL FARIZI</span></h2>
+            <p class="text-lg text-black-600 leading-relaxed">
+                Saya Salman Al farizi asal Jombang Seorang desainer grafis yang kreatif  dengan minat yang tinggi dalam mendesain dan menciptakan konten yang menarik secara visual. Berpengalaman dalam menggunakan perangkat lunak standar serta mewujudkan ide dan menciptakan visual berkualitas tinggi dan menarik.
+            </p>
+        </div>
+    </section>
+
+    <section id="foto" class="bg-white py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Sertifikat & Aktivitas</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-lg group">
+                    <img src="image/1000001778.jpg.jpeg">
+                </div>
+                <div class="overflow-hidden rounded-lg group">
+                    <img src="image/sertif1.jpeg">
+                </div>
+                <div class="overflow-hidden rounded-lg group">
+                    <img src="image/sertif2.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Pemesanan" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 text-center bg-blue-600 rounded-3xl py-12 text-white shadow-2xl">
+            <h3 class="text-3xl font-bold mb-4">Mari pesan project ke kami</h3>
+            <p class="mb-8 "> Bebas revisi dapatkan project terbaru kami sesuai dengan kepuasan anda.</p>
+            
+            <form class="flex flex-col sm:flex-row justify-center gap-4 max-w-lg mx-auto">
+                <input type="nomor" placeholder="Masukkan no hp anda" class="w-full px-4 py-3 rounded-xl text-white-900 focus:outline ring-2 focus:ring-white-300" required>
+                <button type="submit" class="bg-gray-900 text-white px-8 py-3 rounded-xl font-bold hover:bg-black transition">Pesan</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
